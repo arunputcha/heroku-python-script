@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/Users/arunputcha/opt/anaconda3/bin/python3
 # coding: utf-8
 
 # In[ ]:
@@ -12,7 +12,7 @@ import plotly.graph_objects as go
 from dash.dependencies import Input, Output
 
 #read data
-all_sites_df = pd.read_csv('Webapp/Alaska_North_Slope_Site_Names_Data.csv')
+all_sites_df = pd.read_csv('Alaska_North_Slope_Site_Names_Data.csv')
 
 #Creat a template for the website
 
