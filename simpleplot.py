@@ -99,7 +99,7 @@ app.layout = html.Div([html.Div([dcc.Markdown(
     
     Use the pulldown to select a site of interest.
     
-    """),html.P([html.Small("See more data/Permafrost content, find me on"), html.A(html.Small("Get lost"), 
+    """),html.P([html.Small("See more data/Permafrost content, find me on"), html.A(html.Small("Hello"), 
                                                                                     href =  "https://youtube.com/"), 
                                                                                     html.Small("!")])]),
     html.Div([dcc.Dropdown(id = 'group-select',options = [{'label':i, 'value':i} for i in team_names], 
