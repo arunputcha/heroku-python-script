@@ -86,7 +86,7 @@ def find_output(user_input):
     month = month.set_index('Date')
     
     
-    model = joblib.load("../code/joblib_xgboost_reg_1.pkl")
+    model = joblib.load("/Users/arunputcha/Documents/GitHub/datax/code/joblib_xgboost_reg_1.pkl")
     pred = model.predict(month)
     predf = pd.DataFrame({'pred': pred})
     
@@ -117,7 +117,7 @@ def find_output(user_input):
 
 
 
-lv1_df = pd.read_csv('../data/Final_data/samoylov_final')
+lv1_df = pd.read_csv('/Users/arunputcha/Documents/GitHub/datax/data/Final_data/samoylov_final')
 lv1_df = lv1_df.rename(columns = {'UTC': 'Date', 'Dal_01_01': 'Alt_in_cm'})
 lv1_df['Date'] = pd.to_datetime(lv1_df['Date'])
 lv1_df['Month'] = lv1_df.Date.dt.month
