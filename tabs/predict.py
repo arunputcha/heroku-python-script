@@ -86,7 +86,7 @@ def find_output(user_input):
     month = month.set_index('Date')
     
     
-    model = joblib.load("/Users/arunputcha/Documents/GitHub/datax/code/joblib_xgboost_reg_1.pkl")
+    model = joblib.load("joblib_xgboost_reg_1.pkl")
     pred = model.predict(month)
     predf = pd.DataFrame({'pred': pred})
     
