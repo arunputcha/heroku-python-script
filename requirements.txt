@@ -23,5 +23,6 @@ pycrypto
 pycurl
 pyee
 pyflakes
+scikit-learn
 xgboost
 
