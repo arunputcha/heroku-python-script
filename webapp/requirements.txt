@@ -23,5 +23,4 @@ pycrypto
 pycurl
 pyee
 pyflakes
-xgboost
 

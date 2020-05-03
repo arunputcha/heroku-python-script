@@ -1,1 +1,1 @@
-web: gunicorn simpleplot:server
+web: gunicorn index:server -t 120
