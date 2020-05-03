@@ -34,5 +34,5 @@ def render_content(tab):
     
 
 if __name__ == '__main__':
-    model = joblib.load("/Users/arunputcha/Documents/GitHub/datax/code/joblib_xgboost_reg_1.pkl")
+    model = joblib.load("joblib_xgboost_reg_1.pkl")
     app.run_server(debug=True)
