@@ -96,7 +96,7 @@ def find_output(user_input):
     alt = np.round_(predf.iloc[-1,:].pred,2)
     
     result_1 = f'Date: {str(predf.index[-1])[0:10]}'
-    result_2 = f'Active Layer Thickness: {alt}'
+    result_2 = f'Active Layer Thickness(cm): {alt}'
    
     #predf['Date'] = month.index
     #predf = predf.set_index('Date')
