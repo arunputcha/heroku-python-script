@@ -25,8 +25,8 @@ outbreaks, epidemics and pandemics could become more and more frequent in the co
 
 html.Div([
     
-    html.Img(src = 'https://www.nato.int/docu/review/files/3701_tn718.jpg', 
-    style = {'position' : 'center', 'width' : '50%', 'height' : '50%'}), style = {'textalign':'center'}]),
+    html.Img(src = 'https://assets.nrdc.org/sites/default/files/styles/full_content--retina/public/media-uploads/guide_permafrost_579215990_rm_ds_2400.jpg?itok=mY63upPu', 
+    style = {'position' : 'center', 'width' : '50%', 'height' : '50%'})], style = {'textalign':'center'}),
 
 dcc.Markdown("""
 **This project’s goal is to project future active layer thickness** in Samoylov, Russia, one of the many sites 
