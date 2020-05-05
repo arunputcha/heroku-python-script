@@ -12,7 +12,7 @@ layout = [dcc.Markdown("""
 This project is created as an assignment for the Data-x course in UC Berkeley. We splitted the data into train and 
 test set, and experimented with different models before choosing one with the lowest loss. The table below shows the 
 different models that we tried and their corresponding train and test Root Mean Squared Error (RMSE).
-
+\n
 
 
 |         Model         | Train RMSE | Test RMSE |
@@ -23,7 +23,7 @@ different models that we tried and their corresponding train and test Root Mean 
 |     Random Forest     |   5.651    |   8.998   |
 |        XGBoost        |   2.194    |   7.342   |
 
-
+\n
 
 As seen, the XGBoost model has the lowest train and test RMSE and therefore is used as the chosen model to forecast,
 active layer thickness in the Samoylov region in Russia.
@@ -33,12 +33,7 @@ active layer thickness in the Samoylov region in Russia.
     
 
 
-dcc.Markdown("""
-
-
-
-
-**Image of the XGBoost model performance against the test data,**"""),
+dcc.Markdown(" \n Image of the XGBoost model performance against the test data,", style = {"white-space":"pre"}),
 
 
 html.Div(children= [

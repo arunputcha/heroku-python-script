@@ -16,6 +16,6 @@ external_stylesheets = [
 
 
 app = dash.Dash(__name__, external_stylesheets = external_stylesheets)
-app.title = "Data-X Permafrost"
+app.title = "Data-X: Environment-B Permafrost"
 app.config.suppress_callback_exceptions = True
 server = app.server
