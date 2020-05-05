@@ -23,7 +23,10 @@ positive feedback-loop, exacerbating the climate problem. Another major problem 
 long-frozen microbes and bacteria may introduce diseases that may cause outbreaks**. It may be possible that 
 outbreaks, epidemics and pandemics could become more and more frequent in the coming years."""),
 
-html.Img(src = 'https://www.nato.int/docu/review/files/3701_tn718.jpg', style = {'position' : 'center', 'width' : '50%', 'height' : '50%'}),
+html.Div([
+    
+    html.Img(src = 'https://www.nato.int/docu/review/files/3701_tn718.jpg', 
+    style = {'position' : 'center', 'width' : '50%', 'height' : '50%'}), style = {'textalign':'center'}]),
 
 dcc.Markdown("""
 **This project’s goal is to project future active layer thickness** in Samoylov, Russia, one of the many sites 
