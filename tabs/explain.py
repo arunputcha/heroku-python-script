@@ -4,29 +4,37 @@ import dash_html_components as html
 
 from app import app
 
+
 layout = [dcc.Markdown("""
 
-#### The Project Goal and Data
+### Project context and model selection
 
-The goal of the project is to predict the optimal offer for a single-family home in Marin county California
-in a multiple offer situation - a bidding war.  The key factors in determining the optimal offer include
-the area (city), the listing price, the number of bedrooms, the number of baths and the number of total expected
-offers.
+This project is created as an assignment for the Data-x course in UC Berkeley. We splitted the data into train and 
+test set, and experimented with different models before choosing one with the lowest loss. The table below shows the 
+different models that we tried and their corresponding train and test Root Mean Squared Error (RMSE).
 
-#### The Data and Evaluation Protocol
-Since I have a real estate license I have access to the Marin MLS which I used to download 5 years (2015 – 2019)
-of single-family home sales with more than one offer.  The data was divided into training (2015 - 2017) with 2,973 sales,
-validation (2018) with 991 sales and test (2019) with 776 sales.  The test set contains about 11 months of data from 2019.
+As seen, the XGBoost model has the lowest train and test RMSE and therefore is used as the chosen model to forecast,
+active layer thickness in the Samoylov region in Russia.
 
 
-#### Model Selection
-A simple linear regression was initially run with excellent results.  An XGBoost model was then run and had
-slightly better metrics and was therefore selected as the model.
+|         Model         | Train RMSE | Test RMSE |
+|-----------------------|------------|-----------|
+|  Autoregression (p=31)|   10.637   |   13.690  |
+|   ARIMA (p=2, q=0)    |   11.601   |   13.716  |
+|         SARIMA        |   15.415   |   14.436  |
+|     Random Forest     |   5.651    |   8.998   |
+|        XGBoost        |   2.194    |   7.342   |
 
-|           | Validation | Test     |
-|-----------|------------|----------|
-| MAE       | $71,851    | $68,002  |
-| R-Squared | 0.9726     | 0.9839   |
+"""),
+    
+dcc.Markdown("""
+
+### Image of the XGBoost model performance against the test data """),
+
+html.Div(children= [html.Img(src='https://drive.google.com/file/d/1ie9cjgldY-XMVVwKfs1_j_AiFe_ozsNe/view?usp=sharing', style = {'width':'50%', 'height':'50%'}),
+    dcc.Markdown("""**XGBoost performance against test data (Date on the x-axis, ALT in centimeters on the y-axis)**""")],
+    style = {'textAlign':'center'})
+
+]
 
 
-""")]
