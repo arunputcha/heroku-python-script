@@ -14,6 +14,7 @@ test set, and experimented with different models before choosing one with the lo
 different models that we tried and their corresponding train and test Root Mean Squared Error (RMSE).
 
 
+
 |         Model         | Train RMSE | Test RMSE |
 |-----------------------|------------|-----------|
 |  Autoregression (p=31)|   10.637   |   13.690  |
@@ -21,6 +22,8 @@ different models that we tried and their corresponding train and test Root Mean 
 |         SARIMA        |   15.415   |   14.436  |
 |     Random Forest     |   5.651    |   8.998   |
 |        XGBoost        |   2.194    |   7.342   |
+
+
 
 As seen, the XGBoost model has the lowest train and test RMSE and therefore is used as the chosen model to forecast,
 active layer thickness in the Samoylov region in Russia.
@@ -33,6 +36,8 @@ active layer thickness in the Samoylov region in Russia.
 dcc.Markdown("""
 
 
+
+
 **Image of the XGBoost model performance against the test data,**"""),
 
 
@@ -40,7 +45,7 @@ html.Div(children= [
 
 html.Img(src='https://raw.githubusercontent.com/yangluanne/datax-Enviroment-B/master/Webapp/xgboost%20model%20against%20test%20data.png?token=ANXZA3YQPFT4GLQE6UAATZ26XLYK2', style = {'width':'100%', 'height':'100%'}),
     dcc.Markdown("*XGBoost performance against test data (Date on the x-axis, ALT in centimeters on the y-axis)*")],
-    style = {'textAlign':'left'})
+    style = {'textAlign':'center'})
 
 ]
 
