@@ -25,7 +25,7 @@ outbreaks, epidemics and pandemics could become more and more frequent in the co
 
 html.Div([
     
-    html.Img(src = 'https://assets.nrdc.org/sites/default/files/styles/full_content--retina/public/media-uploads/guide_permafrost_579215990_rm_ds_2400.jpg?itok=mY63upPu',
+    html.Img(src = 'https://assets.nrdc.org/sites/default/files/styles/full_content--retina/public/media-uploads/guide_permafrost_579215990_rm_ds_2400.jpg?itok=mY63upPu'),
     html.H1("*Permafrost melting in the arctic region of Svalbard, Norway, Credits: Jeff Vangua/Getty*"),
     style = {'position' : 'center', 'width' : '50%', 'height' : '50%'})], style = {'textAlign':'center'}),
 
