@@ -23,11 +23,11 @@ positive feedback-loop, exacerbating the climate problem. Another major problem 
 long-frozen microbes and bacteria may introduce diseases that may cause outbreaks**. It may be possible that 
 outbreaks, epidemics and pandemics could become more and more frequent in the coming years."""),
 
-html.Div([
+html.Div(children=
     
-    html.Img(src = 'https://assets.nrdc.org/sites/default/files/styles/full_content--retina/public/media-uploads/guide_permafrost_579215990_rm_ds_2400.jpg?itok=mY63upPu',
-    #html.H1("*Permafrost melting in the arctic region of Svalbard, Norway, Credits: Jeff Vangua/Getty*"),
-    style = {'position' : 'center', 'width' : '50%', 'height' : '50%'})], style = {'textAlign':'center'}),
+    [html.Img(src = 'https://assets.nrdc.org/sites/default/files/styles/full_content--retina/public/media-uploads/guide_permafrost_579215990_rm_ds_2400.jpg?itok=mY63upPu'),
+    html.H1("*Permafrost melting in the arctic region of Svalbard, Norway, Credits: Jeff Vangua/Getty*")], 
+    style = {'textAlign':'center', 'width' : '50%', 'height' : '50%'}),
 
 dcc.Markdown("""
 **This project’s goal is to project future active layer thickness** in Samoylov, Russia, one of the many sites 
