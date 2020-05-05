@@ -25,9 +25,9 @@ outbreaks, epidemics and pandemics could become more and more frequent in the co
 
 html.Div(children=
     
-    [html.Img(src = 'https://assets.nrdc.org/sites/default/files/styles/full_content--retina/public/media-uploads/guide_permafrost_579215990_rm_ds_2400.jpg?itok=mY63upPu'),
-    html.H1("*Permafrost melting in the arctic region of Svalbard, Norway, Credits: Jeff Vangua/Getty*")], 
-    style = {'textAlign':'center', 'width' : '50%', 'height' : '50%'}),
+    [html.Img(src = 'https://assets.nrdc.org/sites/default/files/styles/full_content--retina/public/media-uploads/guide_permafrost_579215990_rm_ds_2400.jpg?itok=mY63upPu', style = {'width':'50%','height':'50%'}),
+    html.H1("### *Permafrost melting in the arctic region of Svalbard, Norway. Credits: Jeff Vangua/Getty.*")], 
+    style = {'textAlign':'center'}),
 
 dcc.Markdown("""
 **This project’s goal is to project future active layer thickness** in Samoylov, Russia, one of the many sites 
