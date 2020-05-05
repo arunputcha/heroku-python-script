@@ -57,6 +57,13 @@ Measurements in soil and air at Samoylov Station (2002-2018) version 201908 (Ver
 
 **UI Reference:** https://towardsdatascience.com/how-to-create-an-interactive-dash-web-application-11ea210aa6d9
 
+### Contact:
+
+For any suggestions or comments please feel to reach us out at,
+- Luanne Yang (yangluanne@berkeley.edu)
+- Jesica Sutandi (jesica.sutandi@berkeley.edu)
+- Arun Putcha (arunputcha@berkeley.edu)
+
 
 
 """)]
