@@ -27,12 +27,12 @@ active layer thickness in the Samoylov region in Russia.
 
 """),
     
-dcc.Markdown("""
 
-### Image of the XGBoost model performance against the test data """),
 
-html.Div(children= [html.Img(src='https://drive.google.com/file/d/1ie9cjgldY-XMVVwKfs1_j_AiFe_ozsNe/view?usp=sharing', style = {'width':'50%', 'height':'50%'}),
-    dcc.Markdown("""**XGBoost performance against test data (Date on the x-axis, ALT in centimeters on the y-axis)**""")],
+html.Div(children= [dcc.Markdown("**Image of the XGBoost model performance against the test data,**"),
+
+html.Img(src='https://github.com/yangluanne/datax/blob/master/Webapp/xgboost%20model%20against%20test%20data.png', style = {'width':'50%', 'height':'50%'}),
+    dcc.Markdown("*XGBoost performance against test data (Date on the x-axis, ALT in centimeters on the y-axis)*")],
     style = {'textAlign':'center'})
 
 ]
