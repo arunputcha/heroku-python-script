@@ -29,7 +29,7 @@ As seen, the XGBoost model has the lowest train and test RMSE and therefore is u
 active layer thickness in the Samoylov region in Russia.
 
 
-"""),
+""", style = {"white-space":"pre"}),
     
 
 
