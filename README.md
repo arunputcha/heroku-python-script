@@ -84,6 +84,7 @@ with any dependencies.
 
 * [Heroku CLI](https://devcenter.heroku.com/articles/getting-started-with-python#set-up)
 * [git](https://git-scm.com/downloads)
+* **Make sure you have all the dependent libraries in the "requirements.txt" folder installed on your machine**
 
 ## Authors
 
