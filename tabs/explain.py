@@ -38,7 +38,7 @@ dcc.Markdown(" \n Image of the XGBoost model performance against the test data,"
 
 html.Div(children= [
 
-html.Img(src='https://github.com/arunputcha/heroku-python-script/blob/master/xgboost_model_against_test_data.png?raw=true, style = {'width':'100%', 'height':'100%'}),
+html.Img(src='https://github.com/arunputcha/heroku-python-script/blob/master/xgboost_model_against_test_data.png?raw=true', style = {'width':'100%', 'height':'100%'}),
     dcc.Markdown("*XGBoost performance against test data (Date on the x-axis, ALT in centimeters on the y-axis)*")],
     style = {'textAlign':'center'})
 
