@@ -1,4 +1,4 @@
-Website: https://rocky-depths-18080.herokuapp.com/
+Website: https://rocky-depths-18080.herokuapp.com/  
 Demo video: https://youtu.be/0h0oEanRnEI
 
 ## Getting Started
