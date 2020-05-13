@@ -80,12 +80,12 @@ with any dependencies.
     heroku ps:scale worker=0
     ```
 
-### Prerequisites and fixes for erros
+### Prerequisites and fixes for errors
 
 * [Heroku CLI](https://devcenter.heroku.com/articles/getting-started-with-python#set-up)
 * [git](https://git-scm.com/downloads)
 * **Make sure you have all the dependent libraries in the "requirements.txt" folder installed on your machine**
-* **If you see error after running `heroku logs --tail` related to `joblib`, you should change lines in app.py, index.py, and predit.py from `from sklearn.externals import joblib` for `import joblib`** 
+* If you see error after running `heroku logs --tail` related to `joblib`, you should change lines in app.py, index.py, and predit.py from `from sklearn.externals import joblib` for `import joblib`
 
 ## Authors
 
