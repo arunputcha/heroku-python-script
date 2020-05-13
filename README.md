@@ -62,7 +62,7 @@ with any dependencies.
     ```bash
     heroku logs --tail
     ```
-
+    
 12. You can open the URL where the script is deployed using the below
     command (if you are deploying web application)
 
@@ -80,11 +80,12 @@ with any dependencies.
     heroku ps:scale worker=0
     ```
 
-### Prerequisites
+### Prerequisites and fixes for erros
 
 * [Heroku CLI](https://devcenter.heroku.com/articles/getting-started-with-python#set-up)
 * [git](https://git-scm.com/downloads)
 * **Make sure you have all the dependent libraries in the "requirements.txt" folder installed on your machine**
+* **If you see error after running `heroku logs --tail` related to `joblib`, you should change lines in app.py, index.py, and predit.py from `from sklearn.externals import joblib` for `import joblib`** 
 
 ## Authors
 
