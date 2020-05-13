@@ -2,6 +2,13 @@ Website: https://rocky-depths-18080.herokuapp.com/
 
 ## Getting Started
 
+### Prerequisites and fixes for errors
+
+* [Heroku CLI](https://devcenter.heroku.com/articles/getting-started-with-python#set-up)
+* [git](https://git-scm.com/downloads)
+* **Make sure you have all the dependent libraries in the "requirements.txt" folder installed on your machine**
+* If you see error after running `heroku logs --tail` related to `joblib`, you should change lines in app.py, index.py, and predit.py from `from sklearn.externals import joblib` to `import joblib`
+
 1. Download or clone this repository
 2. Register on [Heroku](https://www.heroku.com/)
 3. Download and install [Heroku CLI](https://devcenter.heroku.com/articles/getting-started-with-python#set-up)
@@ -75,13 +82,6 @@ Website: https://rocky-depths-18080.herokuapp.com/
      ```bash
     heroku ps:scale worker=0
     ```
-
-### Prerequisites and fixes for errors
-
-* [Heroku CLI](https://devcenter.heroku.com/articles/getting-started-with-python#set-up)
-* [git](https://git-scm.com/downloads)
-* **Make sure you have all the dependent libraries in the "requirements.txt" folder installed on your machine**
-* If you see error after running `heroku logs --tail` related to `joblib`, you should change lines in app.py, index.py, and predit.py from `from sklearn.externals import joblib` to `import joblib`
 
 ## Authors
 
