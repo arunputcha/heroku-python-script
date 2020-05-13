@@ -92,3 +92,36 @@ Website: https://rocky-depths-18080.herokuapp.com/
 * [Official guide to deploy app](https://devcenter.heroku.com/articles/getting-started-with-python#introduction)
 * [Official guide about worker](https://devcenter.heroku.com/articles/background-jobs-queueing)
 * [Guided "Simple twitter-bot with Python, Tweepy and Heroku"](http://briancaffey.github.io/2016/04/05/twitter-bot-tutorial.html)
+
+## Sources
+Packages:
+* django
+* gunicorn
+* django-heroku
+* dash
+* dash-core-components
+* dash-html-components
+* dash-renderer
+* dash-table
+* graphviz
+* matplotlib
+* numpy
+* numpydoc
+* pandas
+* plotly
+* pluggy
+* ply
+* psycopg2
+* ptyprocess
+* py
+* pycodestyle
+* pycosat
+* pycparser
+* pycrypto
+* pycurl
+* pyee
+* pyflakes
+* scikit-learn
+* xgboost
+
+UI Reference: https://towardsdatascience.com/how-to-create-an-interactive-dash-web-application-11ea210aa6d9
