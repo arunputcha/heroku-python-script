@@ -1,8 +1,4 @@
-# Template for hosting python scripts and applications on Heroku
-
-This is a small example of running your script with
-[Heroku](https://www.heroku.com/). You can run almost any python application
-with any dependencies.
+Website: https://rocky-depths-18080.herokuapp.com/
 
 ## Getting Started
 
